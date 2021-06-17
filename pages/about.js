@@ -1,6 +1,11 @@
+import Head from "next/head";
 const about = () => {
   return (
-    <div>
+    <>
+      <Head>
+        <title>Ninja List | about</title>
+        <meta name="keywords" content="ninjas" />
+      </Head>
       <h1>About</h1>
       <p>
         lorem ipsum salum odum dstwa sdknik sqdjhu wndwdhs qsojqosjn wjdniwd
@@ -14,7 +19,7 @@ const about = () => {
         wjdniwd wswin lorem ipsum salum odum dstwa sdknik sqdjhu wndwdhs
         qsojqosjn wjdniwd wswin
       </p>
-    </div>
+    </>
   );
 };
 
